@@ -36,5 +36,7 @@ d.pop() #pops the value on the right most
 d.popleft() #pops leftmost value
 d.extend([1,2,4,68]) #adds a list to the right 
 d.extendleft([3,5,6]) #starts adding values to the left from first 
+d.rotate(1) #one element to right rotated
+d.rotate(-1) #one elements rotated to left
 print(d)
 
